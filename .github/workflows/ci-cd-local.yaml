@@ -2,7 +2,7 @@ name: CI/CD Local Kind
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main","dev" ]
 
 jobs:
   build-test-deploy:
